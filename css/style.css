@@ -1,5 +1,4 @@
 body {
-  background-color: #205493;
 	color: #212121;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
@@ -12,8 +11,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
 }
-h2 {
+h1 {
   font-size: 40px;
+}
+h2 {
+  font-size: 30px;
 }
 h3 {
   font-size: 25px;
@@ -48,14 +50,24 @@ label {
   font-weight: 400;
 }
 
+/* Secondary page */
+
+.content-secondary {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
 /* Box */
 
+.box-outer {
+  background-color: #205493;
+}
 .box {
   background-color: #fff;
   border-radius: 3px;
   padding: 10px 20px;
   margin-bottom: 40px;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 .box h2 {
   font-size: 25px;
@@ -129,14 +141,16 @@ label {
 
 /* Masthead */
 
-.opacity {
-  background: rgba(255, 255, 255, .7);
-  border-radius: 5px;
-  padding: 20px;
+.bs-docs-masthead h1 {
+  padding-bottom: 10px;
+}
+.bs-docs-masthead p.lead {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .bs-docs-masthead,
 .bs-docs-header {
-  margin-bottom: 30px;
+  margin-bottom: 0;
   position: relative;
   padding: 30px 0;
   color: #fff;
@@ -216,6 +230,7 @@ label {
 }
 .online h2 {
   padding-bottom: 20px;
+  font-size: 40px;
 }
 
 /* Official */
@@ -272,15 +287,25 @@ label {
   font-size: 100%;
 }
 
+/* Search form */
+
+.form-inline input {
+  margin-top: 10px;
+}
+
+/* List group */
+
+.list-group a, .list-group a:visited {
+  color: #0071bc;
+}
+
 /* Buttons */
 
-.btn {
-  font-size: 20px;
-}
 a.btn-primary, .btn-primary, a.btn-primary:hover, .btn-primary:hover {
   color: #fff;
   background-color: #0071bc;
   border: none;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -288,6 +313,12 @@ a.btn-primary, .btn-primary, a.btn-primary:hover, .btn-primary:hover {
 }
 a.btn-primary:hover, .btn-primary:hover {
   text-decoration: none;
+}
+
+.btn-search, .btn-search:hover {
+  color: #fff;
+  background-color: #0071bc;
+  border: none;
 }
 
 /* Search */
