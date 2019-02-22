@@ -48,19 +48,6 @@ label {
   font-weight: 400;
 }
 
-/* Search */
-
-.gsc-control-cse {
-  border-color: transparent !important;
-  background-color: transparent !important;
-}
-.cse .gsc-search-button-v2, .gsc-search-button-v2 {
-  font-size: 30px !important;
-}
-input.gsc-input {
-  font-size: 40px !important;
-}
-
 /* Box */
 
 .box {
@@ -273,4 +260,18 @@ a.btn-primary, .btn-primary, a.btn-primary:hover, .btn-primary:hover {
 }
 a.btn-primary:hover, .btn-primary:hover {
   text-decoration: none;
+}
+
+/* Search */
+
+.gsc-control-cse {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+.cse .gsc-search-button-v2, .gsc-search-button-v2 {
+  font-size: 30px !important;
+}
+input.gsc-input {
+  font-size: 40px !important;
+  color: #212121;
 }
