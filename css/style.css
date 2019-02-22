@@ -13,10 +13,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 h2 {
-  font-size: 25px;
+  font-size: 40px;
 }
 h3 {
-  font-size: 20px;
+  font-size: 25px;
 }
 a, a:visited, a:hover {
 	color: #0071bc;
@@ -53,7 +53,12 @@ label {
 .box {
   background-color: #fff;
   border-radius: 3px;
-  padding: 10px;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.box h2 {
+  font-size: 25px;
 }
 
 /* Icons */
@@ -136,7 +141,7 @@ label {
   padding: 30px 0;
   color: #fff;
   text-align: center;
-  background-color: #205493;
+  background-color: #112e51;
   background-image: url('../img/hero.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -194,6 +199,23 @@ label {
   .bs-docs-masthead .lead {
     font-size: 24px;
   }
+}
+
+/* Online */
+
+.online {
+  background-color: #112e51;
+  background-image: url('../img/hero-online.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 30px 0;
+}
+.online h2, .online p {
+  color: #ffffff;
+}
+.online h2 {
+  padding-bottom: 20px;
 }
 
 /* Official */
@@ -259,7 +281,7 @@ a.btn-primary, .btn-primary, a.btn-primary:hover, .btn-primary:hover {
   color: #fff;
   background-color: #0071bc;
   border: none;
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 30px;
   margin-top: 30px;
   padding: 15px;
