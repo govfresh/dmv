@@ -84,21 +84,34 @@ label {
 
 /* Card */
 
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
 .card {
-  background: #0071bc;
-  border-radius: 5px;
-  color: #fff;
-  margin-bottom: 20px;
-  padding: 20px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
-.card a, .card a:visited, .card a:hover {
-  color: #fff;
-  display: block;
+.card-body {
+    padding: .75rem 1.25rem;
 }
-.card .fa {
-  color: #ffffff !important;
+.card .btn-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0071bc;
+    background-color: transparent;
 }
-
 /* images */
 
 .feature img {
@@ -250,10 +263,25 @@ label {
 }
 .official-footer {
   background-color: #ffffff;
-  padding: 15px 0 5px 0;
+  padding: 15px 0 55px 0;
 }
 .official-footer img {
   max-width: 175px;
+}
+
+/* alphabar */
+
+.alphabar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.alphabar p {
+  font-size: 90%;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 /* Footer */
