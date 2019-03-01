@@ -112,6 +112,10 @@ label {
     color: #0071bc;
     background-color: transparent;
 }
+.card p {
+  font-size: 100%;
+}
+
 /* images */
 
 .feature img {
